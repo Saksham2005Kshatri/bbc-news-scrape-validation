@@ -1,5 +1,7 @@
 import asyncio 
-from playwright.async_api import async_playwright, expect
+from playwright.async_api import async_playwright
+import csv
+import json
 
 BASE_URL = "https://www.bbc.com/technology"
 
@@ -16,9 +18,7 @@ async def main():
 async def extract_technology_news(page):
     # articles = await page.locator('//div[@data-testid="anchor-inner-wrapper"]').all()
     more_articles_section = page.get_by_test_id("alaska")
-    total_articles = 0
     current_page = 1
-    title_array = []
     all_present_links = []
 
     while current_page <= 7:
@@ -51,8 +51,17 @@ async def extract_technology_news(page):
         author_locator = contributer_locator.locator("span").first
         if author_locator:
             author = await author_locator.inner_text()
+
+        # logic to extract date time
+        byline_block_locator = page.get_by_test_id("byline").first
+        time_locator = byline_block_locator.locator("time").first
+        if time_locator:
+            full_date_time = await time_locator.get_attribute('datetime')
         
-        print(f"TITLE: {title}, AUTHOR: {author}")
+        date_formatted = full_date_time.split('T')[0]
+
+        
+        print(f"TITLE: {title}, AUTHOR: {author}, DATE: {date_formatted}")
 
 
 
