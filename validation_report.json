@@ -1,376 +1,51 @@
 {
   "summary": {
-    "total_rows": 105,
-    "missing_values_found": false,
+    "total_rows": 87,
+    "missing_values_found": true,
     "duplicates_found": true,
     "invalid_urls_found": true
   },
   "missing_values": {
-    "total_missing": 0,
-    "by_column": {}
+    "total_missing": 1,
+    "by_column": {
+      "author": {
+        "count": 1,
+        "rows": [
+          75
+        ]
+      }
+    }
   },
   "duplicates": {
     "duplicate_article_ids": {
-      "cn4gq352w89o": {
-        "count": 7,
-        "rows": [
-          1,
-          16,
-          31,
-          46,
-          61,
-          76,
-          91
-        ]
-      },
-      "c20jlj26198o": {
-        "count": 7,
-        "rows": [
-          2,
-          17,
-          32,
-          47,
-          62,
-          77,
-          92
-        ]
-      },
-      "ckg1nwwv1xyo": {
-        "count": 7,
-        "rows": [
-          3,
-          18,
-          33,
-          48,
-          63,
-          78,
-          93
-        ]
-      },
-      "c0q3g0ln274o": {
-        "count": 7,
-        "rows": [
-          4,
-          19,
-          34,
-          49,
-          64,
-          79,
-          94
-        ]
-      },
-      "c5ydjd6ep73o": {
-        "count": 7,
-        "rows": [
-          5,
-          20,
-          35,
-          50,
-          65,
-          80,
-          95
-        ]
-      },
-      "cx2l5kp6n02o": {
-        "count": 7,
-        "rows": [
-          6,
-          21,
-          36,
-          51,
-          66,
-          81,
-          96
-        ]
-      },
-      "cdr2gm4y4ygo": {
-        "count": 7,
-        "rows": [
-          7,
-          22,
-          37,
-          52,
-          67,
-          82,
-          97
-        ]
-      },
-      "c8jxevd8mdyo": {
-        "count": 7,
-        "rows": [
-          8,
-          23,
-          38,
-          53,
-          68,
-          83,
-          98
-        ]
-      },
-      "c309qv9zglno": {
-        "count": 7,
-        "rows": [
-          9,
-          24,
-          39,
-          54,
-          69,
-          84,
-          99
-        ]
-      },
-      "c5y42znjnjvo": {
-        "count": 7,
-        "rows": [
-          10,
-          25,
-          40,
-          55,
-          70,
-          85,
-          100
-        ]
-      },
-      "cz6ed1549yvo": {
-        "count": 7,
-        "rows": [
-          11,
-          26,
-          41,
-          56,
-          71,
-          86,
-          101
-        ]
-      },
-      "cpv7xen99zdo": {
-        "count": 7,
-        "rows": [
-          12,
-          27,
-          42,
-          57,
-          72,
-          87,
-          102
-        ]
-      },
-      "czd831elpz5o": {
-        "count": 7,
-        "rows": [
-          13,
-          28,
-          43,
-          58,
-          73,
-          88,
-          103
-        ]
-      },
       "cge8nd5ve00o": {
-        "count": 7,
+        "count": 2,
         "rows": [
           14,
-          29,
-          44,
-          59,
-          74,
-          89,
-          104
+          16
         ]
       },
       "cx2rg2vndk1o": {
-        "count": 7,
+        "count": 2,
         "rows": [
           15,
-          30,
-          45,
-          60,
-          75,
-          90,
-          105
+          17
         ]
       }
     },
     "duplicate_links": {
-      "https://www.bbc.com/news/articles/cn4gq352w89o": {
-        "count": 7,
-        "rows": [
-          1,
-          16,
-          31,
-          46,
-          61,
-          76,
-          91
-        ]
-      },
-      "https://www.bbc.com/news/articles/c20jlj26198o": {
-        "count": 7,
-        "rows": [
-          2,
-          17,
-          32,
-          47,
-          62,
-          77,
-          92
-        ]
-      },
-      "https://www.bbc.com/news/articles/ckg1nwwv1xyo": {
-        "count": 7,
-        "rows": [
-          3,
-          18,
-          33,
-          48,
-          63,
-          78,
-          93
-        ]
-      },
-      "https://www.bbc.com/news/articles/c0q3g0ln274o": {
-        "count": 7,
-        "rows": [
-          4,
-          19,
-          34,
-          49,
-          64,
-          79,
-          94
-        ]
-      },
-      "https://www.bbc.com/news/articles/c5ydjd6ep73o": {
-        "count": 7,
-        "rows": [
-          5,
-          20,
-          35,
-          50,
-          65,
-          80,
-          95
-        ]
-      },
-      "https://www.bbc.com/news/articles/cx2l5kp6n02o": {
-        "count": 7,
-        "rows": [
-          6,
-          21,
-          36,
-          51,
-          66,
-          81,
-          96
-        ]
-      },
-      "https://www.bbc.com/news/articles/cdr2gm4y4ygo": {
-        "count": 7,
-        "rows": [
-          7,
-          22,
-          37,
-          52,
-          67,
-          82,
-          97
-        ]
-      },
-      "https://www.bbc.com/news/articles/c8jxevd8mdyo": {
-        "count": 7,
-        "rows": [
-          8,
-          23,
-          38,
-          53,
-          68,
-          83,
-          98
-        ]
-      },
-      "https://www.bbc.com/news/articles/c309qv9zglno": {
-        "count": 7,
-        "rows": [
-          9,
-          24,
-          39,
-          54,
-          69,
-          84,
-          99
-        ]
-      },
-      "https://www.bbc.com/news/articles/c5y42znjnjvo": {
-        "count": 7,
-        "rows": [
-          10,
-          25,
-          40,
-          55,
-          70,
-          85,
-          100
-        ]
-      },
-      "https://www.bbc.com/news/articles/cz6ed1549yvo": {
-        "count": 7,
-        "rows": [
-          11,
-          26,
-          41,
-          56,
-          71,
-          86,
-          101
-        ]
-      },
-      "https://www.bbc.com/news/articles/cpv7xen99zdo": {
-        "count": 7,
-        "rows": [
-          12,
-          27,
-          42,
-          57,
-          72,
-          87,
-          102
-        ]
-      },
-      "https://www.bbc.com/news/articles/czd831elpz5o": {
-        "count": 7,
-        "rows": [
-          13,
-          28,
-          43,
-          58,
-          73,
-          88,
-          103
-        ]
-      },
       "https://www.bbc.com/news/articles/cge8nd5ve00o": {
-        "count": 7,
+        "count": 2,
         "rows": [
           14,
-          29,
-          44,
-          59,
-          74,
-          89,
-          104
+          16
         ]
       },
       "https://www.bbc.com/news/articles/cx2rg2vndk1o": {
-        "count": 7,
+        "count": 2,
         "rows": [
           15,
-          30,
-          45,
-          60,
-          75,
-          90,
-          105
+          17
         ]
       }
     }
@@ -382,27 +57,11 @@
         "value": "no image found"
       },
       {
-        "row": 25,
+        "row": 46,
         "value": "no image found"
       },
       {
-        "row": 40,
-        "value": "no image found"
-      },
-      {
-        "row": 55,
-        "value": "no image found"
-      },
-      {
-        "row": 70,
-        "value": "no image found"
-      },
-      {
-        "row": 85,
-        "value": "no image found"
-      },
-      {
-        "row": 100,
+        "row": 50,
         "value": "no image found"
       }
     ],
